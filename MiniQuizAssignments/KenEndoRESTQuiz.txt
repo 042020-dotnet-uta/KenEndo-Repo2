@@ -1,0 +1,29 @@
+1. What does a request header contain in RESTful implementation?
+- method verb of the request.
+- (correct)additional instructions such as authorization details.
+- status codes that are expected
+- response bodies
+
+2. What is not the reason we want to keep our website RESTful.
+- so you can communicate through heterogeneous language and environment.
+- to be able to communicate through different devices.
+- to be able to match cloud based services
+- (correct) so you can keep your website isolated from others.
+
+3. What is included in the Request Body for RESTful implementations
+- (correct)POST request information to add resource to the server
+- GET request information to retrieve a resource from the server
+- DELETE request information to delete a resource from the server
+- navigational information for web service to understand.
+
+4. what specify the format of representation in REST request or response
+- content-format
+- (correct)content-type
+- content-info
+- content-data
+
+5. What is the most common data format for web APIs
+- XML
+- Notepad
+- (correct)JSON
+- SOAP
