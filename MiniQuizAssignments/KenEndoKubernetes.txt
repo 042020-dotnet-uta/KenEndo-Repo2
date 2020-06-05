@@ -1,0 +1,48 @@
+1. What kind of past deployment style era that led to kubernetes does not belong here.
+- Traditional deployment era where organizations ran applications on physical servers.
+- Virtualized deployment era where multiple virtual machine will be ran on a single physical servers CPU.
+- Container deployment era where containers were used in place of VM due to its relaxed isolation properties to share the operating system.
+- (correct) cloud deployment era where cloud vm's were used to reduce the strain on local database. 
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+
+2. Which of the functionalities are not provided by Kubernetes?
+- (correct) Self-deletion where unused containers are deleted and collected into its own artifacts.
+- Service discovery and load balancing
+- Storage orchestration allowing you to automatically mount a storage system of your choice.
+- Self-healing where it restarts containers that fail, replace containers, kill containers that don't respond to your user defined health check.
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+
+3. Kubernetes is:
+- (correct) let you store and manage sensitive information, such as passwords, OAuth tokens, and SSH Keys.
+- limit the types of applications supported
+- deploy source code and does not build your application.
+- provide application-level services such as middleware, data-processing frameworks, database, and caches.
+https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+
+4. How does kubernetes meet users partway.
+- By exposing the same interfaces used by built-in functionality.
+- (correct) It focuses on deployment and management of microservices and cloud-native applications, but provides some mechanisms to facilitate migration of monolithic and legacy applications.
+-  By not preventing you from using your own solutions in lieu of built-in functionality.
+-  By supporting both declarative control by specifying users’ desired intent via its API.
+https://kubernetes.io/docs/concepts/overview/components/#control-plane-components
+
+5. Which is not Addons for Kubernetes?
+- DNS
+- Web UI
+- Cluster-Level Logging
+- (correct)Garbage Collection
+https://kubernetes.io/docs/concepts/overview/components/#control-plane-components
+
+6. What is a Kubernetes cluster federation trying to enable?
+- (correct) Preferentially run my workloads in my on-premise cluster(s), but automatically overflow to my cloud-hosted cluster(s) if I run out of on-premise capacity
+- Most of my workloads should not run in my preferred cloud-hosted cluster(s), but some are privacy-sensitive, and should be automatically diverted to run in my secure, on-premise cluster(s)
+- I want to avoid vendor lock-in, so I want my workloads to run on a single cloud provider all the time. I change my set of such cloud providers, and my pricing contracts with them, periodically".
+- "I want to be immune to any single data centre or cloud availability zone outage, so I want to contain my service across multiple such zones (and ideally even across multiple cloud providers)."
+https://github.com/kubernetes/community/blob/master/contributors/design-proposals/multicluster/federation.md
+
+7. Which is not included in a Node's status
+- Address
+- Conditions
+- Capacity and allocatable
+- (correct)Errors
+https://kubernetes.io/docs/concepts/architecture/nodes/#management
