@@ -24,7 +24,7 @@ https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
 - (correct) It focuses on deployment and management of microservices and cloud-native applications, but provides some mechanisms to facilitate migration of monolithic and legacy applications.
 -  By not preventing you from using your own solutions in lieu of built-in functionality.
 -  By supporting both declarative control by specifying users’ desired intent via its API.
-https://kubernetes.io/docs/concepts/overview/components/#control-plane-components
+https://github.com/kubernetes/community/blob/master/contributors/design-proposals/architecture/architecture.md#kubernetes-design-and-architecture
 
 5. Which is not Addons for Kubernetes?
 - DNS
